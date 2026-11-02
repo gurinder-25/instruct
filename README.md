@@ -12,7 +12,7 @@ npm install -g @gurinder12072003/instruct
 ## Usage
 
 ```bash
-instruct           # same as instruct list
+instruct           # show what it is and how to use it
 instruct list      # list available instructions
 instruct general   # print general.md
 ```
