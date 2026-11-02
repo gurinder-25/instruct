@@ -1,10 +1,16 @@
 {
-  "name": "instruct",
+  "name": "@gurinder12072003/instruct",
+  "version": "1.0.0",
+  "description": "A tiny CLI that fetches and prints my instruction files from GitHub.",
+  "repository": "github:gurinder-25/instruct",
+  "license": "MIT",
   "type": "module",
-  "bin": {
-    "instruct": "cli.ts"
-  },
+  "bin": { "instruct": "cli.js" },
+  "files": ["cli.js"],
+  "scripts": { "prepublishOnly": "tsc" },
+  "publishConfig": { "access": "public" },
   "devDependencies": {
-    "@types/node": "^26.6.6"
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
   }
 }

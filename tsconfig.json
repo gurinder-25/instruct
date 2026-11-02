@@ -4,7 +4,7 @@
     "target": "esnext",
     "lib": ["esnext"],
     "types": ["node"],
-    "strict": true,
-    "noEmit": true
-  }
+    "strict": true
+  },
+  "files": ["cli.ts"]
 }
