@@ -1,18 +1,25 @@
 # instruct
 
-Prints instruction files from
+A tiny CLI that fetches and prints my instruction files from
 [gurinder-25/instructions](https://github.com/gurinder-25/instructions).
-
-```bash
-instruct           # same as instruct list
-instruct list      # prints index.txt
-instruct general   # prints general.md
-```
 
 ## Install
 
-Requires Node 23.6 or newer, which runs `.ts` files directly, so there's no build step.
+```bash
+npm install -g @gurinder12072003/instruct
+```
+
+## Usage
 
 ```bash
-chmod +x cli.ts && npm link
+instruct           # same as instruct list
+instruct list      # list available instructions
+instruct general   # print general.md
+```
+
+## Development
+
+```bash
+npm install && npx tsc && npm link   # use the local copy as the global instruct
+npm version patch && npm publish     # release a new version
 ```
