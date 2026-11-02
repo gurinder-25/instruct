@@ -1,0 +1,10 @@
+{
+  "name": "instruct",
+  "type": "module",
+  "bin": {
+    "instruct": "cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
+  }
+}
